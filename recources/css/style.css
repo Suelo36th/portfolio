@@ -9,47 +9,62 @@ body {
     background-color: black;
     color: whitesmoke;
 
+
 }
 
 a {
     color: whitesmoke;
+    padding: 0.5rem;
+    transition: all 0.3s ease 0s;
+    
+}
+
+a:hover {
+    color: gold;
+}
+
+li, a {
+    text-decoration: none;
 }
 
 a :visited {
     color: lightgray;
 }
 
-.navbar {
-    font-size: 0.9rem;
+
+
+nav {
     display: flex;
     justify-content: flex-end;
-    padding: 0.5rem;
-    
+    align-items: center;
+    padding: 0.6rem;
+    position: fixed;
+    width: 100%;
+    background-color: black;
 }
 
-nav  ul {
-    display: flex;
+.nav_links {
     list-style: none;
-    
+
 }
 
-nav li {
-    display: flex;
-    padding: 1rem;
+.nav_links li {
+    display: inline-block;
 }
 
 .welcome {
-    display: block;
+
     font-size: 6rem;
     width: 100%;
     white-space: nowrap;
+    padding-top: 3rem;
+    margin: 0 2rem;
+    
 }
 
+
+
 .circle {
-    position: absolute;
-    display: inline-block;
-    margin-top: 6rem;
-    margin-left: 4rem;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -57,24 +72,28 @@ nav li {
 }
 
 .square {
-    position: absolute;;
-    top: 530px;
-    left: 120px;
-    display: inline-block;
-    margin-top: 6rem;
-    margin-left: 4rem;
+    top: -11rem;
+    left: 8rem;
     width: 300px;
     height: 300px;
     background-color: black;
+   /* border: 1px solid white; */
     z-index: 1;
 }
 
 .plus img {
-    height: 1rem;
+    top: 0.4rem;
+    height: 1.5rem;
     width: auto;
+    
 }
 
 .arrow img {
-    height: 3rem;
+    height: 5rem;
     transform: rotate(45deg);
+}
+
+
+.attributes {
+    padding: 0 1rem;
 }
