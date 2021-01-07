@@ -64,8 +64,9 @@ nav {
     width: 100%;
     white-space: nowrap;
     padding-top: 3rem;
-    margin: 0 2rem;
+    margin-left: 3rem;
     letter-spacing: 0.3rem;
+    line-height: 10rem;
     
 }
 
@@ -109,7 +110,8 @@ nav {
 
 .welcome_text {
     display: flex;
-    margin-left: -8rem;
+    margin-left: -6.1rem;
+    margin-top: -1rem;
     
 }
 
