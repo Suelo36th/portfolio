@@ -10,13 +10,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: whitesmoke;
-
-
+    max-width: 88%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 3rem;
 }
 
 a {
     color: whitesmoke;
-    padding: 0.5rem;
     transition: all 0.3s ease 0s;
     
 }
@@ -33,7 +35,9 @@ a :visited {
     color: lightgray;
 }
 
-
+nav ul li a {
+    padding: 0.3rem;
+}
 
 nav {
     display: flex;
@@ -41,8 +45,10 @@ nav {
     align-items: center;
     padding: 0.6rem;
     position: fixed;
-    width: 100%;
+    top: 0;
+    width: 88%;
     background-color: black;
+    z-index: 99;
 }
 
 .forms {
@@ -63,15 +69,15 @@ nav {
     font-size: 6rem;
     width: 100%;
     white-space: nowrap;
-    padding-top: 3rem;
-    margin-left: 3rem;
     letter-spacing: 0.3rem;
     line-height: 10rem;
     
 }
 
 
-
+header {
+    margin-bottom: 2rem ;
+}
 .circle {
     width: 300px;
     height: 300px;
@@ -119,7 +125,6 @@ nav {
     letter-spacing: 0.3rem;
 }
 .circle_form {
-    margin-left: 3rem;
     margin-top: 5rem;
 }
 
@@ -131,7 +136,88 @@ nav {
     margin-left: 14rem;
 }
 
-main {
-    display: flex;
-    margin-top: 8rem;
+
+
+.aboutme {
+    width: 60%;
+    line-height: 1.4rem;
+    padding-top: 3rem;
+    margin: 3rem 0;
+
 }
+
+.aboutme h3 {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.project-image {
+    width: 300px;
+    height:100%;
+  }
+  
+  #projects {
+    text-align: center;
+    padding: 3rem 0;
+    }
+  
+  .project-tile {
+    background-color: #212121;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    letter-spacing:2px;
+  }
+
+  .project-tile p {
+      padding: 1rem 0;
+      font-size: 1.4rem;
+  }
+  
+  .projects-secton-title {
+    padding: 3rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+
+  }
+
+  p {
+      display: block;
+      margin: 1rem;
+  }
+  
+  .icons {
+
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+  }
+
+  .icons i {
+      font-size: 2rem;
+      padding: 2rem;
+    
+  }
+
+h3{
+      font-size: 2rem;
+      margin-left: 3rem;
+      font-weight: 300;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+  }
+
+  .made {
+      display: flex;
+      justify-content: center;
+      margin: 2rem;
+  }
+
+  .heart {
+      padding: 0 1rem;
+  }
