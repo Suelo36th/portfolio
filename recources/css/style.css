@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+a {
+    color: whitesmoke;
+}
+
+a :visited {
+    color: lightgray;
+}
+
+.navbar {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    
+}
+
+nav  ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+nav li {
+    display: flex;
+    padding: 1rem;
+}
+
+.welcome {
+    display: block;
+    font-size: 6rem;
+    width: 100%;
+    white-space: nowrap;
+}
