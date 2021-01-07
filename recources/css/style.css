@@ -129,3 +129,8 @@ nav {
     margin-top: -15rem;
     margin-left: 14rem;
 }
+
+main {
+    display: flex;
+    margin-top: 8rem;
+}
