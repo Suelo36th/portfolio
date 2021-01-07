@@ -60,7 +60,6 @@ nav {
 }
 
 .welcome {
-
     font-size: 6rem;
     width: 100%;
     white-space: nowrap;
@@ -86,10 +85,10 @@ nav {
     width: 300px;
     height: 300px;
     background-color: black;
-    /*border: 1px solid white;*/
+    // border: 1px solid white; 
     z-index: 1;
-    margin-left: 10rem;
-    margin-top: -11rem
+    margin-left: 8rem;
+    margin-top: -13rem
 }
 
 .plus img {
@@ -111,9 +110,22 @@ nav {
 
 .welcome_text {
     display: flex;
-    margin-left: 4rem;
+    margin-left: -8rem;
+    
 }
 
 .welcome_text h3 {
     letter-spacing: 0.3rem;
+}
+.circle_form {
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.forms_welcome {
+    font-weight: 300;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    margin-top: -15rem;
+    margin-left: 14rem;
 }
