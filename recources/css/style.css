@@ -188,6 +188,7 @@ header {
   p {
       display: block;
       margin: 1rem;
+      letter-spacing: 0.05rem;
   }
   
   .icons {
@@ -215,9 +216,32 @@ h3{
   .made {
       display: flex;
       justify-content: center;
-      margin: 2rem;
   }
 
   .heart {
       padding: 0 1rem;
+  }
+
+  .contact_icons {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 0.5rem;
+
+  }
+
+  .contact_icons i {
+    font-size: 2.8rem;
+    padding: 0.8rem ;
+    margin-left: 1rem;
+  }
+
+  .contact {
+      margin-left: 2rem;
+      font-weight: 300;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+  }
+
+  hr {
+      margin: 2rem 0;
   }
