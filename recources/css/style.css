@@ -248,3 +248,50 @@ h3{
   hr {
       margin: 2rem 0;
   }
+
+  @media only screen and (max-width: 480px) {
+      .welcome {
+          display: flex;
+          font-size: 3rem;
+          flex-wrap: wrap;
+          line-height: 5rem;
+          margin-top: 2rem;
+          word-wrap: break-word;
+          width: 100%;
+          white-space: pre-wrap;
+      }
+
+      .forms {
+          display: flex;
+
+      }
+
+      .forms_welcome {
+        font-weight: 300;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        margin-top: 12rem;
+        margin-left: -2rem;
+        z-index: 4;
+    }
+
+    #welcome:hover + #circle {
+        transform: none;
+        }
+    
+    .aboutme {
+        width: 100%;
+        text-align: justify;
+    }
+    .projects-secton-title {
+        text-align: start;
+        padding: 2rem;
+    }
+    .welcome_text {
+        display: flex;
+        position: absolute;
+        margin-top: 28rem;
+        
+    }
+
+  }
