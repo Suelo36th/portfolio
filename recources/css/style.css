@@ -52,7 +52,29 @@ nav {
 }
 
 .forms {
-    display: flex;
+    display: inline-flex;
+}
+
+.graph {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    border: 2px solid black;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    transform: rotate(45deg);
+    margin:  2rem ;
+    position: absolute;
+}
+
+.forms_welcome {
+    font-weight: 300;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    margin-top: 12rem;
+    z-index: 4;
+    padding-left: 8rem;
 }
 
 .nav_links {
@@ -79,22 +101,7 @@ header {
     margin-bottom: 2rem ;
     height: 100vh;
 }
-.circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 1px solid whitesmoke;
-    margin-left: 2rem;
-}
 
-.square {
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    z-index: 1;
-    margin-left: 7rem;
-    margin-top: -7rem
-}
 
 .plus img {
     top: 0.4rem;
@@ -115,28 +122,17 @@ header {
 }
 
 .welcome_text {
-    position: absolute;
     display: flex;
-    margin-top: -1rem;
-    margin-left: 33rem;
+    margin-top: rem;
+    margin-left: rem;
     
 }
 
 .welcome_text h3 {
     letter-spacing: 0.3rem;
 }
-.circle_form {
-    margin-top: 2rem;
-}
 
-.forms_welcome {
-    position: absolute;
-    font-weight: 300;
-    font-size: 5rem;
-    letter-spacing: 0.5rem;
-    margin-top: -13rem;
-    margin-left: 8rem;
-}
+
 
 
 
