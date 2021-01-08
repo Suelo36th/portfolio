@@ -77,36 +77,36 @@ nav {
 
 header {
     margin-bottom: 2rem ;
+    height: 100vh;
 }
 .circle {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 1px solid whitesmoke;
     margin-left: 2rem;
 }
 
 .square {
-    top: -11rem;
-    left: 8rem;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     background-color: black;
     z-index: 1;
-    margin-left: 8rem;
-    margin-top: -13rem
+    margin-left: 7rem;
+    margin-top: -7rem
 }
 
 .plus img {
     top: 0.4rem;
     height: 1.5rem;
-    width: auto;
+    margin-left: -1rem;
     
 }
 
 .arrow img {
-    height: 5rem;
+    height: 6rem;
     transform: rotate(45deg);
+    margin-right: -3rem;
 }
 
 
@@ -116,7 +116,6 @@ header {
 
 .welcome_text {
     display: flex;
-    margin-left: -6.1rem;
     margin-top: -1rem;
     
 }
@@ -125,15 +124,16 @@ header {
     letter-spacing: 0.3rem;
 }
 .circle_form {
-    margin-top: 5rem;
+    height: ;
+    margin-top: 2rem;
 }
 
 .forms_welcome {
     font-weight: 300;
     font-size: 5rem;
     letter-spacing: 0.5rem;
-    margin-top: -15rem;
-    margin-left: 14rem;
+    margin-top: -13rem;
+    margin-left: 8rem;
 }
 
 
