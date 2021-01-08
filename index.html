@@ -22,13 +22,13 @@
         </nav>
         <div class="welcome">
             <h2>hello,</h2>
-            <h2>i am suelo</h2>
+            <h2>i am <span id="suelo"> suelo</span></h2>
         </div>
         <div class="forms">
             <div class="circle_form">
                 <div class="circle"></div>
-                <div class="square"></div>
-                <h3 class="forms_welcome"><a href="#aboutme">welcome</a></h3>
+                <div class="square" id="square"></div>
+                <h3 class="forms_welcome" id="welcome"><a href="#aboutme">welcome</a></h3>
             </div>
             <div class="welcome_text">
                 <div class="arrow">
@@ -96,6 +96,16 @@
         <h3 class="made">made with  <span class="heart"> ♥ </span>  in istanbul</h3>
         <br>
     </footer>
+    <script>
+        let welcome = document.getElementById("welcome");
+        welcome.addEventListener("mouseover", function(event){
+            event.target.style.fontSize = "120%";
+        }, false);
+        welcome.addEventListener("mouseout", function(event){
+            event.target.style.fontSize = "";
+        }, false);
+
+    </script>
 </body>
 
 </html>
