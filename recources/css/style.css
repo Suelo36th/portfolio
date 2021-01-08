@@ -36,7 +36,9 @@ a :visited {
 }
 
 nav ul li a {
-    padding: 0.3rem;
+    padding: 0.5rem;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
 }
 
 nav {
@@ -56,8 +58,8 @@ nav {
 }
 
 #circle {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 200px;
     border: 2px solid black;
     border-top: 2px solid white;
@@ -75,11 +77,11 @@ nav {
 
 .forms_welcome {
     font-weight: 300;
-    font-size: 5rem;
+    font-size: 4rem;
     letter-spacing: 0.5rem;
-    margin-top: 12rem;
+    margin-top: 10rem;
     z-index: 4;
-    padding-left: 8rem;
+    padding-left: 5rem;
 }
 
 .nav_links {
@@ -93,7 +95,8 @@ nav {
 }
 
 .welcome {
-    font-size: 6rem;
+    margin-top: -1rem;
+    font-size: 5.5rem;
     width: 100%;
     white-space: nowrap;
     letter-spacing: 0.2rem;
@@ -104,7 +107,6 @@ nav {
 
 header {
     margin-bottom: 2rem ;
-    height: 100vh;
 }
 
 
@@ -116,9 +118,9 @@ header {
 }
 
 .arrow img {
-    height: 6rem;
+    height: 4.2rem;
     transform: rotate(45deg);
-    margin-right: -3rem;
+    margin-right: -3.8rem;
 }
 
 
@@ -128,13 +130,15 @@ header {
 
 .welcome_text {
     display: flex;
-    margin-top: rem;
-    margin-left: rem;
+    margin-top: -1rem;
+    margin-left: 3rem;
     
 }
 
 .welcome_text h3 {
     letter-spacing: 0.3rem;
+    font-size: 1rem;
+    white-space: nowrap;
 }
 
 
@@ -239,9 +243,10 @@ h3{
   }
 
   .contact {
+      margin-top: 8.5rem;
       margin-left: 2rem;
       font-weight: 300;
-      font-size: 2.5rem;
+      font-size: 2rem;
       letter-spacing: 2px;
   }
 
