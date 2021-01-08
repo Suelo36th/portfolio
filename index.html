@@ -24,61 +24,66 @@
             <h2>hello,</h2>
             <h2>i am <span id="suelo"> suelo</span></h2>
         </div>
-        <div class="forms">
-                <div class="graph">
+        <div class="forms"  id="forms" >
+            <h3 class="forms_welcome" id="welcome" onmouseover="rotate()"><a href="#aboutme" >welcome</a></h3>
 
+            <figure class="graph" id="circle">
+            </figure>
+            <div class="welcome_text">
+                <div class="arrow">
+                    <img src="/recources/images/arrowwhite.png" alt="arrow image" />
                 </div>
-
-                <h3 class="forms_welcome" id="welcome"><a href="#aboutme">welcome</a></h3>
-                <div class="welcome_text">
-                    <div class="arrow">
-                        <img src="/recources/images/arrowwhite.png" alt="arrow image" />
-                    </div>
-                    <div class="attributes">
-                        <h3>developer</h3>
-                        <h3>ux/ui designer</h3>
-                        <h3>freelancer</h3>
-                    </div>
-                    <div class="plus">
-                        <img src="/recources/images/pluswhite.png" alt="plussign" />
-                    </div>
-    
+                <div class="attributes">
+                    <h3>developer</h3>
+                    <h3>ux/ui designer</h3>
+                    <h3>freelancer</h3>
+                </div>
+                <div class="plus">
+                    <img src="/recources/images/pluswhite.png" alt="plussign" />
                 </div>
             </div>
-            
+        </div>
         </div>
     </header>
     <main>
         <section class="aboutme" id="aboutme">
             <h3>About Me</h3>
             <p>hi! i'm suelo, i am a full stack engineering student. i love to code and design.
-            allways loved to be creativ and have been curious all my life.
-            i am working as an illustrative designer since over a decade and decided to get into the magic world of coding and developing.
-            <br>i'd love to get coffee and get to know you, so don’t hesitate to get in touch. </p>
+                allways loved to be creativ and have been curious all my life.
+                i am working as an illustrative designer since over a decade and decided to get into the magic world of
+                coding and developing.
+                <br>i'd love to get coffee and get to know you, so don’t hesitate to get in touch.
+            </p>
         </section>
         <section id="projects">
             <h2 class="projects-secton-title">My Projects</h2>
             <div class="projects-grid">
-              <div class="project-tile" id="survey-page-tile">
-                <a href="https://codepen.io/suelo36th/full/yLayMxQ" target="blank">
-                  <img class="project-image" src="https://assets.codepen.io/5376910/internal/screenshots/pens/yLayMxQ.default.png?" alt="project-survey-form">
-                  <p class="project-descr">survey page</p>
-                </a>
-              </div>
-              <div class="project-tile" id="tribute-tile">
-                <a href="https://codepen.io/suelo36th/full/rNMNbzR" target="blank">
-                  <img class="project-image" src="https://assets.codepen.io/5376910/internal/screenshots/pens/rNMNbzR.default.png?" alt="project-survey-form">
-                  <p class="project-descr">tribute page</p>
-                </a>
-              </div>
-              <div class="project-tile" id="landing-page-tile">
-                <a href="https://codepen.io/suelo36th/full/NWRqbXE" target="blank">
-                  <img class="project-image" src="https://assets.codepen.io/5376910/internal/screenshots/pens/NWRqbXE.default.png?" alt="project-survey-form">
-                  <p class="project-descr">landing page</p>
-                </a>
-              </div>
+                <div class="project-tile" id="survey-page-tile">
+                    <a href="https://codepen.io/suelo36th/full/yLayMxQ" target="blank">
+                        <img class="project-image"
+                            src="https://assets.codepen.io/5376910/internal/screenshots/pens/yLayMxQ.default.png?"
+                            alt="project-survey-form">
+                        <p class="project-descr">survey page</p>
+                    </a>
+                </div>
+                <div class="project-tile" id="tribute-tile">
+                    <a href="https://codepen.io/suelo36th/full/rNMNbzR" target="blank">
+                        <img class="project-image"
+                            src="https://assets.codepen.io/5376910/internal/screenshots/pens/rNMNbzR.default.png?"
+                            alt="project-survey-form">
+                        <p class="project-descr">tribute page</p>
+                    </a>
+                </div>
+                <div class="project-tile" id="landing-page-tile">
+                    <a href="https://codepen.io/suelo36th/full/NWRqbXE" target="blank">
+                        <img class="project-image"
+                            src="https://assets.codepen.io/5376910/internal/screenshots/pens/NWRqbXE.default.png?"
+                            alt="project-survey-form">
+                        <p class="project-descr">landing page</p>
+                    </a>
+                </div>
             </div>
-            
+
         </section>
         <section class="skills" id="skills">
             <h3>skills</h3>
@@ -94,19 +99,26 @@
         </section>
     </main>
     <hr class="hr">
-    <footer class="footer" >
-        <h3 class="made">made with  <span class="heart"> ♥ </span>  in istanbul</h3>
+    <footer class="footer">
+        <h3 class="made">made with <span class="heart"> ♥ </span> in istanbul</h3>
         <br>
     </footer>
     <script>
-        let welcome = document.getElementById("welcome");
-        welcome.addEventListener("mouseover", function(event){
-            event.target.style.fontSize = "120%";
-        }, false);
-        welcome.addEventListener("mouseout", function(event){
-            event.target.style.fontSize = "";
-        }, false);
 
+        function rotate() {
+            document.getElementById("circle").style.transition = "all 1s";
+        }
+
+        /*
+        let circle = document.getElementById("circle");
+        let welcome = document.getElementById("welcome");
+        circle.addEventListener("mouseover", function (event) {
+            event.target.style.transition = "rotate(280deg) ";
+        }, false);
+        circle.addEventListener("mouseout", function (event) {
+            event.target.style.transition = "rotate(45deg) ";
+        }, false);
+*/
     </script>
 </body>
 

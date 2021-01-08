@@ -55,7 +55,7 @@ nav {
     display: inline-flex;
 }
 
-.graph {
+#circle {
     width: 300px;
     height: 300px;
     border-radius: 200px;
@@ -67,6 +67,11 @@ nav {
     margin:  2rem ;
     position: absolute;
 }
+
+#welcome:hover + #circle {
+    transform: rotate(400deg);
+    }
+
 
 .forms_welcome {
     font-weight: 300;
@@ -91,7 +96,7 @@ nav {
     font-size: 6rem;
     width: 100%;
     white-space: nowrap;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     line-height: 10rem;
     
 }
